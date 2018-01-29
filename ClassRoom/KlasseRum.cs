@@ -9,13 +9,13 @@ namespace ClassRoom
     public class KlasseRum
     {
         private string _klasseNavn;
-        private List<Students> _klasseListe;
+        private List<Students> _studentListe;
         private DateTime _semesterStart; 
 
-        public KlasseRum(string klasseNavn, List<Students> klasseListe, DateTime semesterStart)
+        public KlasseRum(string klasseNavn, List<Students> studentListe, DateTime semesterStart)
         {
             _klasseNavn = klasseNavn;
-            _klasseListe = klasseListe;
+            _studentListe = studentListe;
             _semesterStart = semesterStart;
         }
         public string KlasseNavn
