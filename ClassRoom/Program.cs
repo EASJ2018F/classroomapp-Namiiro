@@ -28,6 +28,8 @@ namespace ClassRoom
                 Console.WriteLine(student);
             }
 
+            Klasse.BirthSeason();
+
             Console.ReadKey();
 
 
