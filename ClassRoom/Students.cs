@@ -43,5 +43,29 @@ namespace ClassRoom
 
 
         }
+        public string BirthSeason()
+        {
+            if (CalenderMonth == 1 || CalenderMonth == 2 || CalenderMonth == 12)
+                return "Winter";
+
+
+            if (CalenderMonth == 3 || CalenderMonth == 4 || CalenderMonth == 5)
+                return "Spring";
+
+            if (CalenderMonth == 6 || CalenderMonth == 7 || CalenderMonth == 8)
+                return "Summer";
+
+
+            if (CalenderMonth == 9 || CalenderMonth == 10 || CalenderMonth == 11)
+                return "Autumn";
+
+            return "";
+        }
+
+     
+
+        
+
+     
     }
 }
