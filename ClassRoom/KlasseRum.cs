@@ -18,6 +18,22 @@ namespace ClassRoom
             _klasseListe = klasseListe;
             _semesterStart = semesterStart;
         }
-        
+        public string KlasseNavn
+        {
+            get;
+            set;
+        }
+
+        public List<Students> KlasseListe
+        {
+            get;
+            set;
+        }
+
+        public DateTime SemesterStart
+        {
+            get;
+            set;
+        }
     }
 }
