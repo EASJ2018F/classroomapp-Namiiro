@@ -21,20 +21,27 @@ namespace ClassRoom
 
         public string FirstName
         {
-            get;
-            set;
+            get { return _name; }
+           
         }
         
         public int CalenderMonth
         {
-            get;
-            set;
+            get { return _month; }
+            
         }
 
         public int CalenderDay
         {
-            get;
-            set;
+            get { return _day; }
+            
+        }
+
+        public override string ToString()
+        {
+            return $" {FirstName} born on {CalenderDay} {CalenderMonth}";
+
+
         }
     }
 }

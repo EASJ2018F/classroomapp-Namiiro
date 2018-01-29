@@ -20,20 +20,20 @@ namespace ClassRoom
         }
         public string KlasseNavn
         {
-            get;
-            set;
+            get { return _klasseNavn; }
+
         }
 
         public List<Students> KlasseListe
         {
-            get;
-            set;
+            get { return _studentListe; }
+            
         }
 
         public DateTime SemesterStart
         {
-            get;
-            set;
+            get { return _semesterStart; }
+           
         }
     }
 }
