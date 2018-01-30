@@ -64,9 +64,9 @@ namespace ClassRoom
             }
 
             Console.WriteLine($"Born in winter: {winter}");
-            Console.WriteLine($"Born in spring: {winter}");
-            Console.WriteLine($"Born in summer: {winter}");
-            Console.WriteLine($"Born in autumn: {winter}");
+            Console.WriteLine($"Born in spring: {spring}");
+            Console.WriteLine($"Born in summer: {summer}");
+            Console.WriteLine($"Born in autumn: {autumn}");
 
 
         }
